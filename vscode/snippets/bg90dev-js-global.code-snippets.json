@@ -1,0 +1,62 @@
+{
+	"Console Log Primary": {
+		"scope": "javascript, typescript",
+		"prefix": "clog-pri",
+		"body": [
+			"console.log('%c $2: ' + '%c $1',",
+			"'background: #085ED6; color: #FFF; font-size: 16px',",
+			"'background: #222; color: #085ED6;');"
+		],
+		"description": "Primary Color Log"
+	},
+	"Console Log Secondary": {
+		"scope": "javascript, typescript",
+		"prefix": "clog-sec",
+		"body": [
+			"console.log('%c $2: ' + '%c $1',",
+			"'background: #5B6369; color: #FFF; font-size: 16px',",
+			"'background: #222; color: #5B6369;');"
+		],
+		"description": "Secondary Color Log"
+	},
+	"Console Log Success": {
+		"scope": "javascript, typescript",
+		"prefix": "clog-succ",
+		"body": [
+			"console.log('%c $2: ' + '%c $1',",
+			"'background: #167247; color: #FFF; font-size: 16px',",
+			"'background: #222; color: #167247;');"
+		],
+		"description": "Success Color Log"
+	},
+	"Console Log Danger": {
+		"scope": "javascript, typescript",
+		"prefix": "clog-dang",
+		"body": [
+			"console.log('%c $2: ' + '%c $1',",
+			"'background: #BB2D3A; color: #FFF; font-size: 16px',",
+			"'background: #222; color: #BB2D3A;');"
+		],
+		"description": "Danger Color Log"
+	},
+	"Console Log Warning": {
+		"scope": "javascript, typescript",
+		"prefix": "clog-warn",
+		"body": [
+			"console.log('%c $2: ' + '%c $1',",
+			"'background: #FFCA2B; color: #FFF; font-size: 16px',",
+			"'background: #222; color: #FFCA2B;');"
+		],
+		"description": "Warning Color Log"
+	},
+	"Console Log Info": {
+		"scope": "javascript, typescript",
+		"prefix": "clog-info",
+		"body": [
+			"console.log('%c $2: ' + '%c $1',",
+			"'background: #2FD2F2; color: #FFF; font-size: 16px',",
+			"'background: #222; color: #2FD2F2;');"
+		],
+		"description": "Info Color Log"
+	}
+}
