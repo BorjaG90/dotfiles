@@ -1,0 +1,44 @@
+{
+	"Console Fmt N": {
+		"prefix": "cfmt",
+		"body": [
+			"fmt.Println($1)"
+		],
+		"description": "fmt.Println"
+	},
+	"Console Fmt F": {
+		"prefix": "cfmtf",
+		"body": [
+			"fmt.Printf($1)"
+		],
+		"description": "fmt.Printf"
+	},
+	"Console Fmt S": {
+		"prefix": "cfmts",
+		"body": [
+			"fmt.Sprintf($1)"
+		],
+		"description": "fmt.Sprintf"
+	},
+	"Console Log N": {
+		"prefix": "clog",
+		"body": [
+			"log.Println($1)"
+		],
+		"description": "log.Println"
+	},
+	"Console Log F": {
+		"prefix": "clogf",
+		"body": [
+			"log.Printf($1)"
+		],
+		"description": "log.Printf"
+	},
+	"Console Log S": {
+		"prefix": "clogs",
+		"body": [
+			"log.Sprintf($1)"
+		],
+		"description": "log.Sprintf"
+	},
+}
