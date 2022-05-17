@@ -40,5 +40,5 @@
 			"log.Sprintf($1)"
 		],
 		"description": "log.Sprintf"
-	},
+	}
 }
