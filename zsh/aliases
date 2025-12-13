@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# +--------+
+# | System |
+# +--------+
+alias shutdown='sudo shutdown now'
+alias restart='sudo reboot'
+alias suspend='sudo pm-suspend'
+
+# +-----+
+# | Zsh |
+# +-----+
+alias zshconfig='nvim $HOME/.zshrc'
+alias aliasconfig='nvim $HOME/.config/zsh/aliases'
+
+# +----------+
+# | Hyprland |
+# +----------+
+alias hyprconfig='nvim $HOME/.config/hypr/hyprland.conf'
+alias hyprpaperconfig='nvim $HOME/.config/hypr/hyprpaper.conf'
+alias waybarconfig='nvim $HOME/.config/waybar/config.jsonc'
