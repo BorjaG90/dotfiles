@@ -13,6 +13,8 @@ compinit
 
 # Alias
 source $HOME/.config/zsh/aliases
+# Exports
+source $HOME/.config/zsh/exports
 
 # Prompt
 eval "$(starship init zsh)"

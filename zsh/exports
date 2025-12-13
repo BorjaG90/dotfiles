@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+export CONFIG=~/.config
+export KITTY_CONFIG=$CONFIG/kitty/kitty.conf
+export WAYBAR_CONFIG=$CONFIG/waybar/config.jsonc
+export WAYBAR_STYLES=$CONFIG/waybar/style.css
+export HYPRLAND_CONFIG=$CONFIG/hypr/hyprland.conf
+export HYPRPAPER_CONFIG=$CONFIG/hypr/hyprpaper.conf
+export STARSHIP_CONFIG=$CONFIG/starship.toml
