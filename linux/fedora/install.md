@@ -9,5 +9,6 @@ sudo dnf install bat
 sudo dnf install tldr
 sudo dnf install ncdu
 sudo dnf install lsd
+sudo dnf install atuin
 ```
 
